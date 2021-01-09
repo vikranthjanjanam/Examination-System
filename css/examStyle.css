@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 8, 2017, 10:21:05 PM
+    Author     : My pc
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+*{margin:0;padding:0;}
+
+body{
+  background:#FFDCAC;
+  font-family:'Open Sans','sans-serif';
+}
+
+#timer {
+    display: inline-block;
+    width: 100%;
+    color: snow;
+    background-color: #E37C20;
+}
+
+#timer > h2{
+    float: left;
+    padding: 10px;
+    font-size: 30px;
+    width: 45%;
+}
+
+#timer > p{
+    float: right;
+    font-size: 25px;
+    color: #E37C20;
+    padding: 13px;
+    background-color: snow;
+}
+
+#line {
+    display: inline-block;
+    width: 100%;
+    background-color: #FFDCAC;
+}
+
+#qids {
+    float: left;
+    padding: 10px;
+    width: 30%;
+}
+
+#questions {
+    width: 60%;
+    float: right;
+    padding: 10px;
+}
+
+#qForm {
+    float: left;
+    width: 95%;
+}
+
+#qForm > form {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFF;
+}
+
+.qsns {
+    padding: 20px;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+#nav {
+    display: inline-block;
+    width: 90%;
+    height: 100%;
+    margin: 20px;
+    margin-bottom: 5px;
+}
+
+#nav > a, #sbmt {
+    border:0px;
+    padding:10px;
+    background-color: #E37C20;
+    color: snow;
+    text-decoration: none;
+}
+
+#nav > a:hover, #sbmt:hover {
+    background-color: #FFDCAC;
+    color: black;
+}
+
+.nxt {
+    float: right;
+}
+
+.prev {
+    float: left;
+}
+
+#q0 {
+    display: block;
+}
+
+#smts {
+    margin: 10px;
+}
