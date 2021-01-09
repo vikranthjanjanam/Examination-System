@@ -1,0 +1,290 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+*{margin:0;padding:0;}
+
+body{
+  background:#FFDCAC;
+  font-family:'Open Sans','sans-serif';
+}
+
+#headr .logo, #headr .linkText
+{
+   display: inline-block;
+   vertical-align: middle; 
+}
+
+#headr .logo {
+   margin-right: 10px;
+}
+
+#headr .siteTitle {
+    margin: 0;
+    font-size: 40px;
+    font-family: Goudy Old Style ;
+    color: #020202;
+}
+
+.container {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+
+.top-header {
+  height: 100px;
+}
+
+#headr
+{
+	float:left;
+}
+
+#headr .logo
+{
+	height:auto;
+	width:auto;
+}
+
+#note{
+	padding:5px;
+}
+
+
+.clear{
+	clear: both;
+}
+.menu a{
+	text-decoration: none;
+}
+.menu li{
+	list-style: none;
+}
+
+#headMenu{
+	width: 100%;
+	background-color: #E37C20;
+}
+
+#headMenu .menu{
+	width: 98%;
+	margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+}
+
+#headMenu .menu > li a{
+	float: left;
+	padding: 8px 8px 10px 10px;
+	color: #fff;
+}
+
+#headMenu .menu1 > li a{
+	float: right;
+	padding: 8px 8px 10px 10px;
+	color: #fff;
+}
+
+#headMenu .menu > li a:hover{
+	background-color: #FFDCAC;
+	color: black;
+}
+
+#headMenu .menu1 > li a:hover{
+	background-color: #FFDCAC;
+	color: black;
+}
+
+.pages{
+	display: none;
+}
+
+#Home{
+	display: block;
+}
+
+#scrolls{
+  float: left;
+  display: inline-block;
+  margin: 50px;
+  width:50%;
+}
+
+.login{
+  width:400px;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+  text-align:center;
+  float: right;
+  display: inline-block;
+  margin: 50px;
+}
+
+.login h1{
+  background:#E37C20;
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+
+#sSearch{
+  width:350px;
+}
+
+.login h1{
+  background:#E37C20;
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+  position:center;
+}
+
+.login form{
+  background:#f0f0f0;
+  padding:6% 4%;
+}
+
+.login input, .login select{
+  width:92%;
+  background:#fff;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-family:'Open Sans','sans-serif';
+  font-size:95%;
+  color:#555;
+}
+.login select{
+	width:100%;
+	color:#555;
+}
+
+.login p{
+        text-align: left;
+}
+
+#error{
+    text-align: center;
+    background-color: white;
+    color: red;
+}
+
+#Staffremov{
+    text-align: center;
+    padding-bottom: 4%;
+    height: auto;
+    width: auto;
+}
+
+#Staffremov input[type="submit"] ,.login input[type="submit"]{
+  width:100%;
+  background:#E37C20;
+  border:0;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+#Staffremov input[type="submit"]{
+    border:0px;
+    margin:0px;
+    padding:1%;
+    height: 60%;
+    width: 40%;
+}
+
+#Staffremov input[type="submit"]:hover,.login input[type="submit"]:hover{
+  background:#FFDCAC;
+  color:black;
+}
+
+#Staffremov input[type="submit"]:hover{
+    background: whitesmoke;
+}
+
+#bord{
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+}
+
+#OtherLogin{
+	margin:0px;
+	display:block;
+}
+
+.responstable {
+  margin: 1em 0;
+  width: 100%;
+  overflow: hidden;
+  background: #FFF;
+  color: #024457;
+  border-radius: 10px;
+  border: 1px solid #167F92;
+}
+.responstable tr {
+  border: 1px solid #D9E4E6;
+}
+.responstable tr:nth-child(odd) {
+  background-color: #FFDCAC;
+}
+.responstable th {
+  display: none;
+  border: 1px solid #FFF;
+  background-color: #E37C20;
+  color: #FFF;
+  padding: 1em;
+}
+.responstable th:first-child {
+  display: table-cell;
+  text-align: center;
+}
+.responstable th:nth-child(2) {
+  display: table-cell;
+}
+.responstable th:nth-child(2) span {
+  display: none;
+}
+.responstable th:nth-child(2):after {
+  content: attr(data-th);
+}
+@media (min-width: 480px) {
+  .responstable th:nth-child(2) span {
+    display: block;
+  }
+  .responstable th:nth-child(2):after {
+    display: none;
+  }
+}
+.responstable td {
+  display: block;
+  max-width: 7em;
+}
+.responstable td:first-child {
+  display: table-cell;
+  text-align: center;
+  border-right: 1px solid #D9E4E6;
+}
+@media (min-width: 480px) {
+  .responstable td {
+    border: 1px solid #D9E4E6;
+  }
+}
+.responstable th, .responstable td {
+  text-align: left;
+  margin: .5em 1em;
+}
+@media (min-width: 480px) {
+  .responstable th, .responstable td {
+    display: table-cell;
+    padding: 1em;
+  }
+}
