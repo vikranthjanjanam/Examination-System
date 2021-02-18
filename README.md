@@ -6,7 +6,7 @@ This application provides an alternative means of grading students and maintaini
 	
 All the results, questions, student and administrator details are stored in the database. Merit of students will be secured by preventing the human interference during the evaluation.Every exam will be conducted within a specific duration. If the elapsed time is finished, then the examination will be aborted, thereby maintaining equality.
 
-##Highlights
+## Highlights
 
 1. Interactive UI based on division hiding developed within a single webpage. 
 2. Used XML Parser in PHP for questions representation and validation. 
